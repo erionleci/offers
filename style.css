@@ -1,4 +1,6 @@
-
+ body {
+        background-color: #008b8b;
+      }
       html {
         box-sizing: inherit;
       }
@@ -11,12 +13,11 @@
       #box {
         border-radius: 20px;
         margin-left: 350px;
-        margin-top: 70px;
+        margin-top: 10px;
         width: 700px;
         height: 450px;
         box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.36);
         overflow: hidden;
-        float: left;
       }
       #top-section {
         background-color: rgb(232, 227, 122);
@@ -167,4 +168,48 @@
       #button-3:active {
         opacity: 0.7;
       }
-    
+      h2 {
+        color: wheat;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+      #back-button {
+        margin-left: 255px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 20px;
+        height: 40px;
+        width: 60px;
+        color: #f1e8e8;
+        font-weight: 700;
+        font-size: 17px;
+        background-color: rgb(228, 93, 93);
+        cursor: pointer;
+        box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.36);
+      }
+      #back-button:hover {
+        opacity: 0.88;
+      }
+      #back-button:active {
+        opacity: 0.7;
+      }
+      #next-button {
+        margin-left: 740px;
+        border: none;
+        border-radius: 20px;
+        height: 40px;
+        width: 60px;
+        color: white;
+        font-weight: 700;
+        font-size: 17px;
+        background-color: rgb(69, 179, 78);
+        cursor: pointer;
+        box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.36);
+      }
+      #next-button:hover {
+        opacity: 0.88;
+      }
+      #next-button:active {
+        opacity: 0.7;
+      }
